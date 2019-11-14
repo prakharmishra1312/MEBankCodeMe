@@ -1,8 +1,11 @@
 # Munshi
 # MEBankCodeMe
 
+Application structure: MEBankCodeMe/AccountBalanceCalculator
+   This is a maven project, with source code in /AccountBalanceCalculator/src/main/java and test cases in src/test/java
+
 Design:
-   The application has only one Class : com.mebank.accountoperation.AccountBalanceCalculator It has a functions:
+   To keep the application simple The , application has only one Class : com.mebank.accountoperation.AccountBalanceCalculator It has a functions:
    - setCSV: to set the CSV file with transactions 
    - calculateBalance: It takes the Account Id, from and to time as input strings and return a string output in this format:
     "Relative balance for the period is: "+balString+"\nNumber of transactions included is: "+transactions
